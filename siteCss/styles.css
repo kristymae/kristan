@@ -1,0 +1,157 @@
+/**************************/
+/******* TAGS CSS *********/
+/**************************/
+body {
+  margin: 0;
+  text-align: center;
+  /***********Center all the elements inside the body***************/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  width: 5%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  /**Font Size Percentage: 16px = 100% = 1em (rem: root em)**/
+  color: #efa8e4;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6a197d;
+  font-size: 2.5rem;
+  margin: auto auto 0 auto;
+  top: 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+div {
+  padding: 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/**************************/
+/******* CLASS CSS ********/
+/**************************/
+.top-container {
+  background-color: #fff0f5;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #efa8e4;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  line-height: 2;
+}
+
+.title-name {
+  color: #efa8e4;
+}
+
+.right-cloud {
+  position: absolute;
+  top: 300px;
+  left: 850px;
+  width: 200px;
+  height: 200px;
+}
+
+.left-cloud {
+  position: absolute;
+  left: 450px;
+  width: 200px;
+  height: 200px;
+}
+
+.mermaid-image {
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+
+.profile {
+  line-height: 2
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  margin: auto auto 0 auto;
+}
+
+.skill-scrum {
+  width: 25%;
+  float: left;
+  margin: auto 30px 0 auto;
+}
+
+.skill-yoga {
+  width: 25%;
+  float: right;
+  margin: auto auto 0 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 25px auto 50px auto;
+  text-align: left;
+  line-height: 2
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto auto 30px auto;
+}
+
+.btn {
+  background: #EFA8E4;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6a197d;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #6a197d;
+  margin:20px 10px;
+  text-decoration: none;
+}
+
+.copyright-message{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
